@@ -544,7 +544,7 @@
             "collection": {
               "description": "The schematics collection to use.",
               "type": "string",
-              "default": "@schematics/angular"
+              "default": "schematics-angular-pug"
             },
             "newApp": {
               "description": "The new app schematic.",

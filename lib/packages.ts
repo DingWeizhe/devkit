@@ -205,8 +205,8 @@ export const packages: PackageMap =
         name,
         packageJson,
 
-        snapshot: !!monorepoPackages[name].snapshotRepo,
-        snapshotRepo: monorepoPackages[name].snapshotRepo,
+        snapshot: !!(monorepoPackages[name] && monorepoPackages[name].snapshotRepo),
+        snapshotRepo: monorepoPackages[name] ? monorepoPackages[name].snapshotRepo : null,
         get snapshotHash() {
           return _getSnapshotHash(this);
         },

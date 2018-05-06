@@ -1,5 +1,5 @@
 {
-  "name": "@schematics/angular",
+  "name": "schematics-angular-pug",
   "version": "0.0.0",
   "description": "Schematics specific to Angular",
   "keywords": [
